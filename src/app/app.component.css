@@ -1,0 +1,26 @@
+:host {
+  display: flex;
+  flex-flow: column;
+  align-content: flex-start;
+  justify-content: space-around;
+  min-height: 10em;
+}
+button {
+  width: 100%;
+  max-width: 300px;
+  height: 2rem;
+  color: white;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+#setcookiebtn {
+  background-color: rgb(75, 75, 255);
+}
+
+#getcookiebtn {
+  background-color: rgb(75, 255, 135);
+}
+
+#deletecookiebtn {
+  background-color: rgb(255, 75, 75);
+}
